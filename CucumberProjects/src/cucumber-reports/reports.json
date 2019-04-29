@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:27:04.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13199525300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderPayment.initial2()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "the user added atleast 1 product to cart and performing to successfully order.",
+        "description": "",
+        "id": "casestudy2-description;the-user-added-atleast-1-product-to-cart-and-performing-to-successfully-order.",
+        "after": [
+          {
+            "result": {
+              "duration": 77700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1884187600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Type URL and login with valid Username",
+            "match": {
+              "location": "OrderPayment.type_URL_and_login_with_valid_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2786603700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Larry added a headphone to the cart",
+            "match": {
+              "location": "OrderPayment.larry_added_a_headphone_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4313150000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "checkout for the payment",
+            "match": {
+              "location": "OrderPayment.checkout_for_the_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279944100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "fills transaction details",
+            "match": {
+              "location": "OrderPayment.fills_transaction_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5532138000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the product is succesfully ordered",
+            "match": {
+              "location": "OrderPayment.the_product_is_succesfully_ordered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CaseStudy2 description",
+    "description": "",
+    "id": "casestudy2-description",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/CaseStudy2.feature",
+    "tags": []
+  }
+]
